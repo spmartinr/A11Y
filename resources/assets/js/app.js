@@ -1,31 +1,51 @@
 
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
-
-// require('./bootstrap'); - This throws a 404 error, research.
+require('./bootstrap'); // Working
 
 window.Vue = require('vue');
 
-/**
- * Next, we will create a fresh Vue application instance and attach it to
- * the page. Then, you may begin adding components to this application
- * or customize the JavaScript scaffolding to fit your unique needs.
- */
+import Vue from 'vue'
 
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+// Components
 let allyheader = require('./components/allyheader.vue');
 let allyfooter = require('./components/allyfooter.vue');
 let allyaccordion = require('./components/allyaccordion.vue');
 let allymodal = require('./components/allymodal.vue');
 let allyspinner = require('./components/allyspinner.vue');
+let allyhero = require('./components/allyhero.vue');
 
+// Routes
+let home = require('./components/home.vue');
+let about = require('./components/about.vue');
+let project0 = require('./components/project0.vue');
+let project1 = require('./components/project1.vue');
+let project2 = require('./components/project2.vue');
+
+
+const routes = [
+	{ path: '/home', component: home },
+	{ path: '/about', component: about }
+]
+
+const router = new VueRouter({
+	mode: 'history', // gets rid of the # in the URL on route change
+	routes // short for 'routes: routes'
+})
 
 const app = new Vue({
     el: '#app',
 
-    components:{allyheader,allyfooter,allyspinner,allymodal,allyaccordion}
+    router,
 
-
+    components:{
+    	allyheader,
+    	allyfooter,
+    	allyspinner,
+    	allymodal,
+    	allyaccordion,
+    	allyhero
+    }
 });

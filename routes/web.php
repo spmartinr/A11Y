@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('A11Y');
+    return view('riptrix');
 });
+
+Route::get('/{name}', function(){
+	return redirect('/');
+})->where('name','[A-Za-z]+');
+
+/* This solves the redirect crash issue and redirects the user back to the base URL */
