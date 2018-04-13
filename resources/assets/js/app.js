@@ -5,7 +5,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+// require('./bootstrap'); - This throws a 404 error, research.
 
 window.Vue = require('vue');
 
@@ -15,8 +15,17 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+let allyheader = require('./components/allyheader.vue');
+let allyfooter = require('./components/allyfooter.vue');
+let allyaccordion = require('./components/allyaccordion.vue');
+let allymodal = require('./components/allymodal.vue');
+let allyspinner = require('./components/allyspinner.vue');
+
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+
+    components:{allyheader,allyfooter,allyspinner,allymodal,allyaccordion}
+
+
 });
