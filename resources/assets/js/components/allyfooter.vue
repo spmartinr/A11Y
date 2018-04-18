@@ -1,3 +1,3 @@
 <template>
-	<div>This is a test of allyfooter</div>
+	<div role='contentinfo'>This is a test of allyfooter</div>
 </template>

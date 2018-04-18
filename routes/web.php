@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('riptrix');
+    return view('base');
 });
 
 Route::get('/{name}', function(){
