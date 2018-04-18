@@ -146,3 +146,13 @@ function expandMe() {
     document.getElementsByClassName('expansion').setAttribute('aria-expanded', x);
     document.getElementsByClassName('expansion').innerHTML = 'aria-expanded=' + x;
 }
+
+// Upload to Github Repo
+// cd /Users/shane/Documents/A11Y
+// git status --> git add . --> git commit -m "message" --> git push origin master
+// Initialize Local Dev Server
+// cd /Users/shane/Documents/A11Y
+// php artisan serve
+// Open New Terminal Window
+// cd /Users/shane/Documents/A11Y
+// npm run watch
