@@ -294,7 +294,7 @@
 								</button>
 							</h5>
 						</div>
-						<div id="collapseSix" class="collapse show" aria-labelledby="headingSix" data-parent="#accordion">
+						<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
 									<li>
@@ -438,7 +438,7 @@
 								</button>
 							</h5>
 						</div>
-						<div id="collapse11" class="collapse show" aria-labelledby="heading11" data-parent="#accordion">
+						<div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
 									<li>
@@ -744,7 +744,7 @@
 								</button>
 							</h5>
 						</div>
-						<div id="collapse16" class="collapse show" aria-labelledby="heading16" data-parent="#accordion">
+						<div id="collapse16" class="collapse" aria-labelledby="heading16" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
 									<li>
@@ -1080,7 +1080,7 @@
 								</button>
 							</h5>
 						</div>
-						<div id="collapse24" class="collapse show" aria-labelledby="heading24" data-parent="#accordion">
+						<div id="collapse24" class="collapse" aria-labelledby="heading24" data-parent="#accordion">
 							<div class="card-body">
 								<ul>
 									<li>
