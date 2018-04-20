@@ -53,7 +53,240 @@
 		</ul>
 		<div class="tab-content">
 		  <div class="tab-pane active" id="web" role="tabpanel" aria-labelledby="webtab">
-		  	
+		  	<div>Web Best Practice Buckets</div>
+		  		<div id="accordion">
+  					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Animation
+								</button>
+							</h5>
+						</div>
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li>
+										<router-link to=''>Ensure blinking or flashing elements are avoided</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure scripts that cause moving or slow blinking are avoided</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure the blink element is avoided</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure the marquee element is avoided</router-link>
+									</li>
+									<li>
+										<router-link to=''>Provide a non-animated equivalent or method to step through animation</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure decorative animations are played a limited number of times</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure screen transition animation settles within 5 seconds</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure alternatives to animation provide equivalent functionality</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure animated content is sufficiently described in text</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure elements blink or flash in a safe threshold</router-link>
+									</li>
+								</ul>	
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h5 class="mb-0">
+							<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							ARIA and Dynamic Content
+							</button>
+							</h5>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li>
+										<router-link to=''>Ensure ARIA roles, states, and properties are valid</router-link>
+									</li>
+									<li>
+										<router-link to=''>Avoid inappropriate use of ARIA roles, states, and properties</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure elements that use ARIA provide non-ARIA fallback accessible content when not accessibility supported</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure ARIA regions, landmarks and HTML sections are identifiable</router-link>
+									</li>
+									<li>
+									<router-link to=''>Ensure content updates define focus updates appropriately</router-link>
+									</li>
+									<li>
+										<router-link to=''>Provide a means for quickly navigating to frequently updated areas</router-link>
+									</li>
+									<li>
+										<router-link to=''>Avoid forced focus changes that are not user-initiated</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure that textual equivalent information is updated appropriately when an element's state changes</router-link>
+									</li>
+									<li>
+										<router-link to=''>Inform assistive technologies of changes in content</router-link>
+									</li>
+									<li>
+										<router-link to=''>Provide an accessible alert method for content changes that occur without explicit user knowledge</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure that dynamic content is rendered in-line with the controls that change it</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure auto-updating dynamic content can be paused, stopped, or hidden</router-link>
+									</li>
+									<li>
+										<router-link to=''>Provide a method to stop all dynamic content updates/interruptions except emergency alerts</router-link>
+									</li>
+									<li>
+										<router-link to=''>Indicate live regions for dynamically changing content</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure live regions define atomicness unless they are not atomic</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure relevant changes for live regions are explicitly defined if the change is not text or a node addition</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure live regions define controlling elements when present</router-link>
+									</li>
+									<li>
+										<router-link to=''>Provide long descriptions for complex live regions</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure non-uniformly updated live regions use the ARIA busy attribute</router-link>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Authoring Tools
+								</button>
+							</h5>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li>
+										<router-link to=''>Ensure authoring tools preserve the information required for accessibility when converting content from one format to another or saving content in different formats</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure authoring tools capable of exporting to PDF 1.7 allow for the author to create PDF/UA conformant documents</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure authoring tools are capable of prompting authors to create content that conforms to WCAG 2 Level A/AA and conformance requirements</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure when templates are provided a variety of accessibility conformant templates are available</router-link>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFour">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+								Color and Contrast
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li>
+										<router-link to=''>Ensure text and images of text provide sufficient contrast</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure color is not the sole means of communicating information</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure color is not used as the sole method of indicating selection</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure color is not the sole means of indicating error messages</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure content with color conveys the same meaning without color, directly in the content, on-screen, and without additional user interaction</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure pages are coded in such a way that the user can select custom foreground and background colors</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure text and images of text provide enhanced color contrast</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure sufficient contrast is provided when background images are not available.</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure text and images of text provide sufficient color contrast when CSS is disabled.</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure link text provides sufficient contrast</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure text background color is specified when the foreground is specified and vice versa</router-link>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card">
+						<div class="card-header" id="headingFive">
+							<h5 class="mb-0">
+								<button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+								CSS
+								</button>
+							</h5>
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+							<div class="card-body">
+								<ul>
+									<li>
+										<router-link to=''>Ensure documents are readable without style sheets</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure containing elements allow text resize</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure style sheets are used to style text</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure the reading order of content and elements are correct when viewed without style sheets</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure screen reader specific content is rendered off-screen rather than hidden or not displayed</router-link>
+									</li>
+									<li>
+										<router-link to=''>Avoid use of the before, after, pseudo elements for non-decorative content</router-link>
+									</li>
+									<li>
+										<router-link to=''>Ensure content that is hidden stays hidden when CSS is disabled. </router-link>
+									</li>
+									<li>
+										<router-link to=''>Provide text equivalents for icon fonts</router-link>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>	
 		  </div>
 		  <div class="tab-pane" id="adobe" role="tabpanel" aria-labelledby="adobetab">
 	
