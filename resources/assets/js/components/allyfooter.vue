@@ -1,17 +1,30 @@
 <template>
-	<div class='container' role='contentinfo' id='app7'>
+	<div class='container' role='contentinfo'>
 		This is a test of allyfooter
-		<h5>This is a scripted vue {{ message }}</h5>
+	
+		<modal></modal>
 	</div>
 </template>
 
 <script>
+	
+	let modal = require('./modal.vue'); // identifies the component
+
 	export default {
-		var app7 = new Vue ({
-			el: '#app7',
-			data: {
-				message: 'This explicit vue'
-			}
-		})
+			
+			props:[''], //accepts the specified prop from the parent view
+
+			components:{modal}, // enables the component
+			
+			// data() { //should return something
+			// 	return{
+
+			// 	}
+			// },
+			
+			// methods:{ //specifies functions being used in the component
+
+			// }
+
 	};
 </script>

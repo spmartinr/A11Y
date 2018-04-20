@@ -24942,7 +24942,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(14);
-module.exports = __webpack_require__(136);
+module.exports = __webpack_require__(139);
 
 
 /***/ }),
@@ -24973,56 +24973,57 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 // Defined Components
 var allyheader = __webpack_require__(42);
 var allyfooter = __webpack_require__(44);
-var allyhero = __webpack_require__(46);
+var allyhero = __webpack_require__(47);
 
 // Defined Routes
-var accessibility = __webpack_require__(48);
-var development = __webpack_require__(50);
-var management = __webpack_require__(52);
-var peers = __webpack_require__(54);
-var realestate = __webpack_require__(56);
-var automotive = __webpack_require__(58);
-var hiking = __webpack_require__(60);
-var contact = __webpack_require__(62);
-var section = __webpack_require__(64);
-var CVAA = __webpack_require__(66);
-var WCAG = __webpack_require__(68);
-var office = __webpack_require__(70);
-var accordion = __webpack_require__(72);
-var modal = __webpack_require__(74);
-var spinner = __webpack_require__(76);
-var alerts = __webpack_require__(78);
-var bgimages = __webpack_require__(80);
-var badges = __webpack_require__(82);
-var buttons = __webpack_require__(84);
-var cards = __webpack_require__(86);
-var contextmenu = __webpack_require__(88);
-var datatable = __webpack_require__(90);
-var datep = __webpack_require__(92);
-var hints = __webpack_require__(94);
-var expanel = __webpack_require__(96);
-var pageheader = __webpack_require__(98);
-var pagination = __webpack_require__(100);
-var playercontrols = __webpack_require__(102);
-var selectioncontrols = __webpack_require__(104);
-var links = __webpack_require__(106);
-var listiles = __webpack_require__(108);
-var segcontrols = __webpack_require__(110);
-var tabs = __webpack_require__(112);
-var formz = __webpack_require__(114);
-var textlist = __webpack_require__(116);
-var toast = __webpack_require__(118);
-var tooltip = __webpack_require__(120);
-var browsercontrol = __webpack_require__(122);
-var responsecodes = __webpack_require__(124);
-var loadmore = __webpack_require__(126);
-var navigation = __webpack_require__(128);
-var session = __webpack_require__(130);
-var accname = __webpack_require__(132);
-var slider = __webpack_require__(134);
+var accessibility = __webpack_require__(49);
+var development = __webpack_require__(51);
+var management = __webpack_require__(53);
+var peers = __webpack_require__(55);
+var realestate = __webpack_require__(57);
+var automotive = __webpack_require__(59);
+var hiking = __webpack_require__(61);
+var contact = __webpack_require__(63);
+var section = __webpack_require__(65);
+var CVAA = __webpack_require__(67);
+var WCAG = __webpack_require__(69);
+var office = __webpack_require__(71);
+var accordion = __webpack_require__(73);
+var modal = __webpack_require__(75);
+var spinner = __webpack_require__(77);
+var alerts = __webpack_require__(79);
+var bgimages = __webpack_require__(81);
+var badges = __webpack_require__(83);
+var buttons = __webpack_require__(85);
+var cards = __webpack_require__(87);
+var contextmenu = __webpack_require__(89);
+var datatable = __webpack_require__(91);
+var datep = __webpack_require__(93);
+var hints = __webpack_require__(95);
+var expanel = __webpack_require__(97);
+var pageheader = __webpack_require__(99);
+var pagination = __webpack_require__(101);
+var playercontrols = __webpack_require__(103);
+var selectioncontrols = __webpack_require__(105);
+var links = __webpack_require__(107);
+var listiles = __webpack_require__(109);
+var segcontrols = __webpack_require__(111);
+var tabs = __webpack_require__(113);
+var formz = __webpack_require__(115);
+var textlist = __webpack_require__(117);
+var toast = __webpack_require__(119);
+var tooltip = __webpack_require__(121);
+var browsercontrol = __webpack_require__(123);
+var responsecodes = __webpack_require__(125);
+var loadmore = __webpack_require__(127);
+var navigation = __webpack_require__(129);
+var session = __webpack_require__(131);
+var accname = __webpack_require__(133);
+var slider = __webpack_require__(135);
+var bpractices = __webpack_require__(137);
 
 // Enabled Routes
-var routes = [{ path: '/accessibility', component: accessibility }, { path: '/development', component: development }, { path: '/management', component: management }, { path: '/peers', component: peers }, { path: '/realestate', component: realestate }, { path: '/automotive', component: automotive }, { path: '/hiking', component: hiking }, { path: '/contact', component: contact }, { path: '/section', component: section }, { path: '/CVAA', component: CVAA }, { path: '/WCAG', component: WCAG }, { path: '/office', component: office }, { path: '/accordion', component: accordion }, { path: '/modal', component: modal }, { path: '/spinner', component: spinner }, { path: '/alerts', component: alerts }, { path: '/bgimages', component: bgimages }, { path: '/badges', component: badges }, { path: '/buttons', component: buttons }, { path: '/cards', component: cards }, { path: '/contextmenu', component: contextmenu }, { path: '/datatable', component: datatable }, { path: '/datep', component: datep }, { path: '/hints', component: hints }, { path: '/expanel', component: expanel }, { path: '/pageheader', component: pageheader }, { path: '/pagination', component: pagination }, { path: '/playercontrols', component: playercontrols }, { path: '/selectioncontrols', component: selectioncontrols }, { path: '/links', component: links }, { path: '/listiles', component: listiles }, { path: '/segcontrols', component: segcontrols }, { path: '/tabs', component: tabs }, { path: '/formz', component: formz }, { path: '/textlist', component: textlist }, { path: '/toast', component: toast }, { path: '/tooltip', component: tooltip }, { path: '/browsercontrol', component: browsercontrol }, { path: '/responsecodes', component: responsecodes }, { path: '/loadmore', component: loadmore }, { path: '/navigation', component: navigation }, { path: '/session', component: session }, { path: '/accname', component: accname }, { path: '/slider', component: slider }];
+var routes = [{ path: '/accessibility', component: accessibility }, { path: '/development', component: development }, { path: '/management', component: management }, { path: '/peers', component: peers }, { path: '/realestate', component: realestate }, { path: '/automotive', component: automotive }, { path: '/hiking', component: hiking }, { path: '/contact', component: contact }, { path: '/section', component: section }, { path: '/CVAA', component: CVAA }, { path: '/WCAG', component: WCAG }, { path: '/office', component: office }, { path: '/accordion', component: accordion }, { path: '/modal', component: modal }, { path: '/spinner', component: spinner }, { path: '/alerts', component: alerts }, { path: '/bgimages', component: bgimages }, { path: '/badges', component: badges }, { path: '/buttons', component: buttons }, { path: '/cards', component: cards }, { path: '/contextmenu', component: contextmenu }, { path: '/datatable', component: datatable }, { path: '/datep', component: datep }, { path: '/hints', component: hints }, { path: '/expanel', component: expanel }, { path: '/pageheader', component: pageheader }, { path: '/pagination', component: pagination }, { path: '/playercontrols', component: playercontrols }, { path: '/selectioncontrols', component: selectioncontrols }, { path: '/links', component: links }, { path: '/listiles', component: listiles }, { path: '/segcontrols', component: segcontrols }, { path: '/tabs', component: tabs }, { path: '/formz', component: formz }, { path: '/textlist', component: textlist }, { path: '/toast', component: toast }, { path: '/tooltip', component: tooltip }, { path: '/browsercontrol', component: browsercontrol }, { path: '/responsecodes', component: responsecodes }, { path: '/loadmore', component: loadmore }, { path: '/navigation', component: navigation }, { path: '/session', component: session }, { path: '/accname', component: accname }, { path: '/slider', component: slider }, { path: '/bpractices', component: bpractices }];
 
 // Router
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
@@ -50287,9 +50288,9 @@ if (false) {
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(45)
 /* template */
-var __vue_template__ = __webpack_require__(45)
+var __vue_template__ = __webpack_require__(46)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -50329,15 +50330,54 @@ module.exports = Component.exports
 
 /***/ }),
 /* 45 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+var modal = __webpack_require__(75); // identifies the component
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+
+		props: [''], //accepts the specified prop from the parent view
+
+		components: { modal: modal } // enables the component
+
+		// data() { //should return something
+		// 	return{
+
+		// 	}
+		// },
+
+		// methods:{ //specifies functions being used in the component
+
+		// }
+
+});
+
+/***/ }),
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { attrs: { role: "contentinfo" } }, [
-    _vm._v("This is a test of allyfooter")
-  ])
+  return _c(
+    "div",
+    { staticClass: "container", attrs: { role: "contentinfo" } },
+    [_vm._v("\n\tThis is a test of allyfooter\n\n\t"), _c("modal")],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -50350,7 +50390,7 @@ if (false) {
 }
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -50358,7 +50398,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(47)
+var __vue_template__ = __webpack_require__(48)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -50397,7 +50437,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -50417,7 +50457,7 @@ if (false) {
 }
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -50425,7 +50465,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(49)
+var __vue_template__ = __webpack_require__(50)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -50443,7 +50483,6 @@ var Component = normalizeComponent(
   __vue_module_identifier__
 )
 Component.options.__file = "resources/assets/js/components/accessibility.vue"
-
 
 /* hot reload */
 if (false) {(function () {
@@ -50465,7 +50504,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -50868,6 +50907,24 @@ var render = function() {
             )
           ])
         ]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "tab-pane",
+          attrs: {
+            id: "practices",
+            role: "tabpanel",
+            "aria-labelledby": "bestp"
+          }
+        },
+        [
+          _c("router-link", { attrs: { to: "/bpractices" } }, [
+            _vm._v("Best Practices")
+          ])
+        ],
+        1
       )
     ])
   ])
@@ -50972,6 +51029,24 @@ var staticRenderFns = [
             },
             [_vm._v("Prototypes")]
           )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "bestp",
+                "data-toggle": "tab",
+                href: "#practices",
+                role: "tab",
+                "aria-controls": "practices",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Best Practices")]
+          )
         ])
       ]
     )
@@ -50987,7 +51062,7 @@ if (false) {
 }
 
 /***/ }),
-/* 50 */
+/* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -50995,7 +51070,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(51)
+var __vue_template__ = __webpack_require__(52)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51034,7 +51109,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 51 */
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51404,7 +51479,7 @@ if (false) {
 }
 
 /***/ }),
-/* 52 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51412,7 +51487,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(53)
+var __vue_template__ = __webpack_require__(54)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51451,7 +51526,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51482,7 +51557,7 @@ if (false) {
 }
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51490,7 +51565,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(55)
+var __vue_template__ = __webpack_require__(56)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51529,7 +51604,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 55 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51552,7 +51627,11 @@ var render = function() {
     _vm._v(" "),
     _c("h2", [_vm._v("Keyboard Shortcuts")]),
     _vm._v(" "),
-    _vm._m(1)
+    _vm._m(1),
+    _vm._v(" "),
+    _c("h2", [_vm._v("Tools")]),
+    _vm._v(" "),
+    _vm._m(2)
   ])
 }
 var staticRenderFns = [
@@ -51602,6 +51681,20 @@ var staticRenderFns = [
         )
       ])
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("ul", [
+      _c("li", [
+        _c(
+          "a",
+          { attrs: { href: "https://jona.ca/blog/unclosed-tag-finder" } },
+          [_vm._v("Unclosed Tag Finder")]
+        )
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -51614,7 +51707,7 @@ if (false) {
 }
 
 /***/ }),
-/* 56 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51622,7 +51715,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(57)
+var __vue_template__ = __webpack_require__(58)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51661,7 +51754,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 57 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51690,7 +51783,7 @@ if (false) {
 }
 
 /***/ }),
-/* 58 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51698,7 +51791,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(59)
+var __vue_template__ = __webpack_require__(60)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51737,7 +51830,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 59 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51766,7 +51859,7 @@ if (false) {
 }
 
 /***/ }),
-/* 60 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51774,7 +51867,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(61)
+var __vue_template__ = __webpack_require__(62)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51813,7 +51906,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 61 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51842,7 +51935,7 @@ if (false) {
 }
 
 /***/ }),
-/* 62 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51850,7 +51943,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(63)
+var __vue_template__ = __webpack_require__(64)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51889,7 +51982,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 63 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51918,7 +52011,7 @@ if (false) {
 }
 
 /***/ }),
-/* 64 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51926,7 +52019,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(65)
+var __vue_template__ = __webpack_require__(66)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -51965,7 +52058,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 65 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -51985,7 +52078,7 @@ if (false) {
 }
 
 /***/ }),
-/* 66 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -51993,7 +52086,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(67)
+var __vue_template__ = __webpack_require__(68)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52032,7 +52125,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 67 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52052,7 +52145,7 @@ if (false) {
 }
 
 /***/ }),
-/* 68 */
+/* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52060,7 +52153,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(69)
+var __vue_template__ = __webpack_require__(70)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52099,7 +52192,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 69 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52134,7 +52227,7 @@ if (false) {
 }
 
 /***/ }),
-/* 70 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52142,7 +52235,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(71)
+var __vue_template__ = __webpack_require__(72)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52181,7 +52274,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 71 */
+/* 72 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52315,7 +52408,7 @@ if (false) {
 }
 
 /***/ }),
-/* 72 */
+/* 73 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52323,7 +52416,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(73)
+var __vue_template__ = __webpack_require__(74)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52362,7 +52455,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 73 */
+/* 74 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52420,7 +52513,7 @@ if (false) {
 }
 
 /***/ }),
-/* 74 */
+/* 75 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52428,7 +52521,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(75)
+var __vue_template__ = __webpack_require__(76)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52467,7 +52560,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 75 */
+/* 76 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52623,7 +52716,7 @@ if (false) {
 }
 
 /***/ }),
-/* 76 */
+/* 77 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52631,7 +52724,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(77)
+var __vue_template__ = __webpack_require__(78)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52670,7 +52763,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 77 */
+/* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52728,7 +52821,7 @@ if (false) {
 }
 
 /***/ }),
-/* 78 */
+/* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52736,7 +52829,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(79)
+var __vue_template__ = __webpack_require__(80)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52775,7 +52868,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 79 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52833,7 +52926,7 @@ if (false) {
 }
 
 /***/ }),
-/* 80 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52841,7 +52934,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(81)
+var __vue_template__ = __webpack_require__(82)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52880,7 +52973,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 81 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -52938,7 +53031,7 @@ if (false) {
 }
 
 /***/ }),
-/* 82 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -52946,7 +53039,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(83)
+var __vue_template__ = __webpack_require__(84)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -52985,7 +53078,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 83 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53043,7 +53136,7 @@ if (false) {
 }
 
 /***/ }),
-/* 84 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53051,7 +53144,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(85)
+var __vue_template__ = __webpack_require__(86)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53090,7 +53183,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 85 */
+/* 86 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53148,7 +53241,7 @@ if (false) {
 }
 
 /***/ }),
-/* 86 */
+/* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53156,7 +53249,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(87)
+var __vue_template__ = __webpack_require__(88)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53195,7 +53288,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 87 */
+/* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53253,7 +53346,7 @@ if (false) {
 }
 
 /***/ }),
-/* 88 */
+/* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53261,7 +53354,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(89)
+var __vue_template__ = __webpack_require__(90)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53300,7 +53393,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 89 */
+/* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53358,7 +53451,7 @@ if (false) {
 }
 
 /***/ }),
-/* 90 */
+/* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53366,7 +53459,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(91)
+var __vue_template__ = __webpack_require__(92)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53405,7 +53498,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 91 */
+/* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53463,7 +53556,7 @@ if (false) {
 }
 
 /***/ }),
-/* 92 */
+/* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53471,7 +53564,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(93)
+var __vue_template__ = __webpack_require__(94)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53510,7 +53603,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 93 */
+/* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53568,7 +53661,7 @@ if (false) {
 }
 
 /***/ }),
-/* 94 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53576,7 +53669,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(95)
+var __vue_template__ = __webpack_require__(96)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53615,7 +53708,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 95 */
+/* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53673,7 +53766,7 @@ if (false) {
 }
 
 /***/ }),
-/* 96 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53681,7 +53774,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(97)
+var __vue_template__ = __webpack_require__(98)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53720,7 +53813,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 97 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53778,7 +53871,7 @@ if (false) {
 }
 
 /***/ }),
-/* 98 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53786,7 +53879,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(99)
+var __vue_template__ = __webpack_require__(100)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53825,7 +53918,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 99 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53883,7 +53976,7 @@ if (false) {
 }
 
 /***/ }),
-/* 100 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53891,7 +53984,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(101)
+var __vue_template__ = __webpack_require__(102)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -53930,7 +54023,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 101 */
+/* 102 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -53988,7 +54081,7 @@ if (false) {
 }
 
 /***/ }),
-/* 102 */
+/* 103 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -53996,7 +54089,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(103)
+var __vue_template__ = __webpack_require__(104)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54035,7 +54128,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 103 */
+/* 104 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54093,7 +54186,7 @@ if (false) {
 }
 
 /***/ }),
-/* 104 */
+/* 105 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54101,7 +54194,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(105)
+var __vue_template__ = __webpack_require__(106)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54140,7 +54233,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 105 */
+/* 106 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54198,7 +54291,7 @@ if (false) {
 }
 
 /***/ }),
-/* 106 */
+/* 107 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54206,7 +54299,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(107)
+var __vue_template__ = __webpack_require__(108)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54245,7 +54338,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 107 */
+/* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54303,7 +54396,7 @@ if (false) {
 }
 
 /***/ }),
-/* 108 */
+/* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54311,7 +54404,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(109)
+var __vue_template__ = __webpack_require__(110)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54350,7 +54443,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 109 */
+/* 110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54408,7 +54501,7 @@ if (false) {
 }
 
 /***/ }),
-/* 110 */
+/* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54416,7 +54509,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(111)
+var __vue_template__ = __webpack_require__(112)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54455,7 +54548,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 111 */
+/* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54513,7 +54606,7 @@ if (false) {
 }
 
 /***/ }),
-/* 112 */
+/* 113 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54521,7 +54614,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(113)
+var __vue_template__ = __webpack_require__(114)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54560,7 +54653,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 113 */
+/* 114 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54618,7 +54711,7 @@ if (false) {
 }
 
 /***/ }),
-/* 114 */
+/* 115 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54626,7 +54719,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(115)
+var __vue_template__ = __webpack_require__(116)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54665,7 +54758,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 115 */
+/* 116 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54723,7 +54816,7 @@ if (false) {
 }
 
 /***/ }),
-/* 116 */
+/* 117 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54731,7 +54824,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(117)
+var __vue_template__ = __webpack_require__(118)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54770,7 +54863,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 117 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54828,7 +54921,7 @@ if (false) {
 }
 
 /***/ }),
-/* 118 */
+/* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54836,7 +54929,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(119)
+var __vue_template__ = __webpack_require__(120)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54875,7 +54968,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 119 */
+/* 120 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -54933,7 +55026,7 @@ if (false) {
 }
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -54941,7 +55034,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(121)
+var __vue_template__ = __webpack_require__(122)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -54980,7 +55073,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55038,7 +55131,7 @@ if (false) {
 }
 
 /***/ }),
-/* 122 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -55046,7 +55139,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(123)
+var __vue_template__ = __webpack_require__(124)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55085,7 +55178,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 123 */
+/* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55143,7 +55236,7 @@ if (false) {
 }
 
 /***/ }),
-/* 124 */
+/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -55151,7 +55244,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(125)
+var __vue_template__ = __webpack_require__(126)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55190,7 +55283,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 125 */
+/* 126 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55248,7 +55341,7 @@ if (false) {
 }
 
 /***/ }),
-/* 126 */
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -55256,7 +55349,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(127)
+var __vue_template__ = __webpack_require__(128)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55295,7 +55388,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55353,7 +55446,7 @@ if (false) {
 }
 
 /***/ }),
-/* 128 */
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -55361,7 +55454,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(129)
+var __vue_template__ = __webpack_require__(130)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55400,7 +55493,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 129 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55458,7 +55551,7 @@ if (false) {
 }
 
 /***/ }),
-/* 130 */
+/* 131 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -55466,7 +55559,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(131)
+var __vue_template__ = __webpack_require__(132)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55505,7 +55598,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 131 */
+/* 132 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55563,7 +55656,7 @@ if (false) {
 }
 
 /***/ }),
-/* 132 */
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -55571,7 +55664,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(133)
+var __vue_template__ = __webpack_require__(134)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55610,7 +55703,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 133 */
+/* 134 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55668,7 +55761,7 @@ if (false) {
 }
 
 /***/ }),
-/* 134 */
+/* 135 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
@@ -55676,7 +55769,7 @@ var normalizeComponent = __webpack_require__(0)
 /* script */
 var __vue_script__ = null
 /* template */
-var __vue_template__ = __webpack_require__(135)
+var __vue_template__ = __webpack_require__(136)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -55715,7 +55808,7 @@ module.exports = Component.exports
 
 
 /***/ }),
-/* 135 */
+/* 136 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
@@ -55773,7 +55866,5313 @@ if (false) {
 }
 
 /***/ }),
-/* 136 */
+/* 137 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(138)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/bpractices.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-29874acd", Component.options)
+  } else {
+    hotAPI.reload("data-v-29874acd", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 138 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "h1",
+      {
+        directives: [{ name: "focus", rawName: "v-focus" }],
+        attrs: { tabindex: "-1" }
+      },
+      [_vm._v("Best Practices")]
+    ),
+    _vm._v(" "),
+    _vm._m(0),
+    _vm._v(" "),
+    _c("div", { staticClass: "tab-content" }, [
+      _c(
+        "div",
+        {
+          staticClass: "tab-pane active",
+          attrs: { id: "web", role: "tabpanel", "aria-labelledby": "webtab" }
+        },
+        [
+          _c("div", [_vm._v("Web Best Practice Buckets")]),
+          _vm._v(" "),
+          _c("div", { attrs: { id: "accordion" } }, [
+            _c("div", { staticClass: "card" }, [
+              _vm._m(1),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse show",
+                  attrs: {
+                    id: "collapseOne",
+                    "aria-labelledby": "headingOne",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure blinking or flashing elements are avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure scripts that cause moving or slow blinking are avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure the blink element is avoided")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure the marquee element is avoided")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a non-animated equivalent or method to step through animation"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure decorative animations are played a limited number of times"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure screen transition animation settles within 5 seconds"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure alternatives to animation provide equivalent functionality"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure animated content is sufficiently described in text"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure elements blink or flash in a safe threshold"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(2),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseTwo",
+                    "aria-labelledby": "headingTwo",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure ARIA roles, states, and properties are valid"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid inappropriate use of ARIA roles, states, and properties"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure elements that use ARIA provide non-ARIA fallback accessible content when not accessibility supported"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure ARIA regions, landmarks and HTML sections are identifiable"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure content updates define focus updates appropriately"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a means for quickly navigating to frequently updated areas"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid forced focus changes that are not user-initiated"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that textual equivalent information is updated appropriately when an element's state changes"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Inform assistive technologies of changes in content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an accessible alert method for content changes that occur without explicit user knowledge"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that dynamic content is rendered in-line with the controls that change it"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure auto-updating dynamic content can be paused, stopped, or hidden"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a method to stop all dynamic content updates/interruptions except emergency alerts"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Indicate live regions for dynamically changing content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure live regions define atomicness unless they are not atomic"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure relevant changes for live regions are explicitly defined if the change is not text or a node addition"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure live regions define controlling elements when present"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide long descriptions for complex live regions"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure non-uniformly updated live regions use the ARIA busy attribute"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(3),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseThree",
+                    "aria-labelledby": "headingThree",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure authoring tools preserve the information required for accessibility when converting content from one format to another or saving content in different formats"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure authoring tools capable of exporting to PDF 1.7 allow for the author to create PDF/UA conformant documents"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure authoring tools are capable of prompting authors to create content that conforms to WCAG 2 Level A/AA and conformance requirements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure when templates are provided a variety of accessibility conformant templates are available"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(4),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseFour",
+                    "aria-labelledby": "headingFour",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text and images of text provide sufficient contrast"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure color is not the sole means of communicating information"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure color is not used as the sole method of indicating selection"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure color is not the sole means of indicating error messages"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure content with color conveys the same meaning without color, directly in the content, on-screen, and without additional user interaction"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure pages are coded in such a way that the user can select custom foreground and background colors"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text and images of text provide enhanced color contrast"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure sufficient contrast is provided when background images are not available."
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text and images of text provide sufficient color contrast when CSS is disabled."
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure link text provides sufficient contrast"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text background color is specified when the foreground is specified and vice versa"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(5),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseFive",
+                    "aria-labelledby": "headingFive",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure documents are readable without style sheets"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure containing elements allow text resize"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure style sheets are used to style text")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure the reading order of content and elements are correct when viewed without style sheets"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure screen reader specific content is rendered off-screen rather than hidden or not displayed"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid use of the before, after, pseudo elements for non-decorative content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure content that is hidden stays hidden when CSS is disabled. "
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Provide text equivalents for icon fonts")
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(6),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseSix",
+                    "aria-labelledby": "headingSix",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure calendar components are keyboard accessible"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure calendar components do not use color alone to convey selection/meaning"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure calendar components include data tables that properly identify header and data cells"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that when calendars are activated and deactivated focus moves appropriately"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that non-modal calendars are rendered inline with the controls that activate them"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(7),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseSeven",
+                    "aria-labelledby": "headingSeven",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure dialogs use proper structure")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure links that spawn dialogs indicate the fact"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that dialogs can be closed via the keyboard"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that when dialogs are activated focus moves appropriately"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure non-modal dialogs are rendered inline with the controls that activate them"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure keyboard focus returns properly from dialogs"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Provide a descriptive dialog title")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that keyboard focus remains within modal dialogs"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(8),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseEight",
+                    "aria-labelledby": "headingEight",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure sortable headers include proper text alternatives"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure selectable rows are keyboard accessible"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure sortable headers can be triggered from the keyboard"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(9),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseNine",
+                    "aria-labelledby": "headingNine",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure page tabs contain proper textual descriptions indicating state and role"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(10),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseTen",
+                    "aria-labelledby": "headingTen",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure fields indicate attached menus")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure keyboard and programmatic focus moves to opened menus"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure keyboard focus returns properly when menus are closed"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure menus can be opened from the keyboard"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure sub-menu items are keyboard accessible and contain text equivalents"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that menus are rendered inline with the controls that activate them"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(11),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse11",
+                    "aria-labelledby": "heading11",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure tree and outline components provide a textual name and type"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure tree and outline components provide textual state information"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure tree and outline components provide textual level information"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure tree and outline components provide textual position information"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure tree and outline node components are provided in the same link"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure tree and outline node components are accessible from the keyboard"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(12),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse12",
+                    "aria-labelledby": "heading12",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure table headers are used in a valid fashion"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure headers and cells are properly associated"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure data table headers are properly identified"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure data tables are formatted using table elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure implicit row header cells use th elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure table captions are provided explicitly"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an abbreviation for table headers with more than three words"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a table summary when a description of the table structure is needed"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Avoid using sub-tables in header elements")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure data table header elements are provided in the same table as content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure data tables do not contain blank rows or columns for presentation purposes"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure table data/headers in separate columns is rendered in separate table cells"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure data table headers cells are not blank"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Avoid using nested data tables")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure distinct tabular data is provided in separate data tables"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure data tables are not used to also layout content which is unrelated to the data"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure complex data table headers are properly identified"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure complex data table's implicit row header cells define scope or use th"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure complex data table headers are used in a valid fashion"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(13),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse13",
+                    "aria-labelledby": "heading13",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure embedded and linked non-HTML media provide a link to an accessible plug-in"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide text equivalents for object elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure applets provide valid text equivalents"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure embedded objects are device-independent"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure embedded objects are directly accessible"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure embedded elements and canvas elements provide a meaningful text equivalent"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure video, multimedia or animations that play automatically can be controlled within the containing page"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure the keyboard can be used to navigate through or past the embedded content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Embed Flash Player content in a manner that exposes accessibility"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a text transcript for audio only presentations"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide text transcript or audio track of video only presentations"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure audio that plays automatically can be controlled within the containing page"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure there is low or no background audio for prerecorded audio only content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an alternative text equivalent to live audio only content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide accessible alternatives when a required plug-in is not available"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(14),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse14",
+                    "aria-labelledby": "heading14",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure new windows or frames do not open without a warning"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure interactive elements can be visually distinguished from non-actionable ones"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid using event handlers that trigger focus or context changes on user input"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure keyboard focus is indicated visually"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure new windows do not open without user control"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure keyboard focus is only assigned to elements that are defined as keyboard focusable without setting a tabindex"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(15),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse15",
+                    "aria-labelledby": "heading15",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Provide a valid label for form fields")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide fieldsets for groups of form controls"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure option elements in large lists are grouped"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide valid, concise, and meaningful alternative text for image buttons"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure accessible usage of time based sessions and timed responses"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure labels are immediately before or after input element"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure form fields are laid out in an intuitive order"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a consistent implementation of error and alert mechanisms"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure elements with multiple labels are rendered appropriately"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure error messages are explicitly indicated at the beginning of a form after submit"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a method to skip past forms to reach search/submit results"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that instructive text is placed at the beginning of a form"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an indication of current location in search results"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure form field constraints are clearly indicated"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure form field labels are unique")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Provide alternatives for audio cues")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure radio button groups are properly formed"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure form component hierarchy is indicated in a textual manner"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure CAPTCHAs are accessible both visually and audibly"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid improper nesting of form elements and links"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure checkboxes and radio buttons are positioned to the left of the labels"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure expired sessions can be re-authenticated without loss of data"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide visual labels or instructions for user input"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide suggestions for error messages when known"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide error prevention for legal commitments and financial data"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Provide context-sensitive help")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide error prevention for information that is submitted"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure rich edit entry fields are directly accessible or provide an alternative entry method"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a clear indication of fields in error for information that is submitted"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid use of placeholder values to label or explain input"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Are all features of the product or service available to users of AT that provide voice command and control?"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(16),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse16",
+                    "aria-labelledby": "heading16",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure frameset elements define noframes alternatives"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure frames do not use absolute sizing")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure complex framesets provide long descriptions"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure relationships between frames are properly indicated"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure frames utilize markup files as their source"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure blank frames set text appropriately")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure frame titles are meaningful")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure the use of frames is limited")
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(17),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse17",
+                    "aria-labelledby": "heading17",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure area alternative text is meaningful and concise"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide alternatives for server-side image maps"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(18),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse18",
+                    "aria-labelledby": "heading18",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure charts and graphs provide an informative and visible alternative description"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure complex images provide sufficient descriptions"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Provide alternative text for images")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure images provide informative alternative text"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid redundant alt text for images with adjacent text or links"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide mathematical formulas in appropriate markup"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure image buttons provide alternative text"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure CSS background images that convey meaning have textual and visible equivalents"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure alternative text for images is spelled and spaced correctly"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text is used instead of images of text unless decorative or essential"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text is used instead of images of text when technology allows unless it is essential"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Do not use images to produce absolute positioning"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide accessible names for progress bars and meters"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(19),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse19",
+                    "aria-labelledby": "heading19",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid the sole use of device-dependent event handlers"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure all active elements receive keyboard focus"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure JavaScript functionality is accessible from the keyboard"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid placing inactive elements in the focus order"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure the focus order of interactive elements on the page is logical"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure all read-only edit elements can receive keyboard focus"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure accelerator/shortcut keys do not conflict with standard browser keystrokes"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure keyboard focus is not trapped")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide access keys for frequently used functions"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Avoid the sole use of the title attribute on elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure functionality provided by JavaScript that is not accessible to assistive technology is available without JavaScript"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide documentation for non-standard or alternative keyboard commands that are required for access"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure accelerator/shortcut keys are unique and consistent within a set of pages"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(20),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse20",
+                    "aria-labelledby": "heading20",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure changes in natural language are identified inline"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure the language of a document is set")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that abbreviations use proper markup"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure acronyms are wrapped in acronym elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure clear language is used in documents")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Avoid line breaks within words")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure pages that provide alternatives for non-accessible pages provide equivalent functionality"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure instructions do not rely solely on sensory characteristics"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a method to identify definitions of unusual words or phrases"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a method to identify pronunciations of words where the meaning is ambiguous"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that elements with the same functionality are consistently identified across pages"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure WCAG Level A or Level AA conformance is met in full "
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure alternative pages are not used unless absolutely necessary"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text direction changes are indicated inline"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure non-interference of non-conforming or non-accessibility supported technology"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(21),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse21",
+                    "aria-labelledby": "heading21",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure layout tables linearize properly")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure layout tables do not contain structural markup"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure absolute sizing in tables is avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Avoid using tables for layout")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "\tEnsure layout tables indicate their use for presentation purposes"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(22),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse22",
+                    "aria-labelledby": "heading22",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure alternative text for image links is informative"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure link text is meaningful when taken out of context"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure the same link text for links with different targets is avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure links do not directly target images")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure link text is short and concise")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure links that target content requiring a plug-in indicate the content type"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure anchor element contains a valid hypertext reference"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure link text is meaningful within context"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure related links are grouped")
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(23),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse23",
+                    "aria-labelledby": "heading23",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure sub-lists are marked up properly")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure lists for indentation are not used")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure bullet type is declared in style sheets"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure list items are found in a list container"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure utilizing tables to provide lists of information is avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure implicit list markup is avoided")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure lists are not used inappropriately for unrelated items or for items that are not actual list items"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(24),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse24",
+                    "aria-labelledby": "heading24",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure site has a universal URI for all mobile devices"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure site URIs are short and easy to enter"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure site takes advantage of features (including accessibility) of mobile devices "
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Provide simplified direct navigation")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Avoid the use of frames")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Limit the number of external resources required to display a page"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure content is clear, concise and specific to the user's request"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure page HTML size does not exceed 10k")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure all page assets are under 20k in size"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure image size is not larger than the screen."
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure compatibility between different mobile browsers"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(25),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse25",
+                    "aria-labelledby": "heading25",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide alternatives for time-based content such as video, audio, embed, or object elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure sign language interpretation is provided in multimedia"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure visual multimedia content is sufficiently described in the audio portion of the multimedia"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an alternative text equivalent to prerecorded synchronized multimedia and video content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an extended audio description for multimedia where audio description can not be inserted"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide synchronized equivalent for multimedia (audio and video)"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure auditory multimedia content is sufficiently described in the captions"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide synchronized audio description for video (which includes audio) or other multimedia"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure audio is not played automatically on load"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure multimedia playback can be controlled"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide shortcut keystrokes for media playback controls"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(26),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse26",
+                    "aria-labelledby": "heading26",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a mechanism for skipping past repetitive navigation links"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure pages do not automatically refresh")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure event handlers that trigger navigation or form submission are avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide meta information about alternative documents"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure meta-redirects are avoided")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure pages use a consistent navigation structure"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure a valid skip link target is present and is located appropriately"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Indicate the current site hierarchy location to users"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure speech is not the only means to access content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure there is more than one way to locate a web page in a set of pages"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure WCAG Level A or Level AA conformance is met on full pages"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure WCAG Level A or Level AA conformance is met in full for all pages within a process"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a mechanism for skipping past repetitive links by means of visible links. "
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure a visible mechanism for skipping past repetitive links is provided when CSS is disabled"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(27),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse27",
+                    "aria-labelledby": "heading27",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure pages use the title element")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure documents validate to formal grammars"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure heading level matches the heading's visual importance/level"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that proper quotation markup is used"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure the use of deprecated elements is avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure the use of ASCII layouts is avoided")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide a means to skip past ASCII art or layouts"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure pages provide a Document Type Definition"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure short quotations are wrapped in q elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure the b element is avoided")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure the i element is avoided")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Avoid the use of implicit headings")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure standards compliant technologies are used whenever possible"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure blockquote is used for long quotes")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure hr elements utilize relative sizing")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure using ASCII art to simulate markup is avoided"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an informative context-sensitive page title"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Avoid unnecessary use of heading elements")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure shape and location are not the sole methods used to communicate information or hierarchy"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure content that is intended to be hidden from all users is not rendered by assistive technology"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that the reading order of content is logical"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide an alternative to scrollable div areas"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure page reading order coincides with the focus order of the page"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure combined text elements contain proper spacing"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure page width is no more than 80 characters or glyphs "
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure proper markup is used to mark emphasized or special text"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure headings and labels are descriptive and unique"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide section headings to organize content"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Provide information about general site and application layout"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure markup documents contain well formed elements"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure content is visible to assistive technologies"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure bugs and limitations on the target platform are compensated for"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure use of technology in accessibility supported methods."
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _vm._m(28),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapse28",
+                    "aria-labelledby": "heading28",
+                    "data-parent": "#accordion"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("ul", [
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v("Ensure text can be resized")
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Limit the amount of horizontal scrolling required"
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure text is not justified (aligned to both the left and the right margins)."
+                            )
+                          ])
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "li",
+                        [
+                          _c("router-link", { attrs: { to: "" } }, [
+                            _vm._v(
+                              "Ensure that line spacing is at least a space and a half"
+                            )
+                          ])
+                        ],
+                        1
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "adobe", role: "tabpanel", "aria-labelledby": "adobetab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: {
+          id: "android",
+          role: "tabpanel",
+          "aria-labelledby": "androidtab"
+        }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: {
+          id: "delphi",
+          role: "tabpanel",
+          "aria-labelledby": "delphitab"
+        }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: {
+          id: "embedded",
+          role: "tabpanel",
+          "aria-labelledby": "embeddedtab"
+        }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "hard", role: "tabpanel", "aria-labelledby": "hardtab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane active",
+        attrs: { id: "ios", role: "tabpanel", "aria-labelledby": "iostab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "java", role: "tabpanel", "aria-labelledby": "javatab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: {
+          id: "kiosks",
+          role: "tabpanel",
+          "aria-labelledby": "kioskstab"
+        }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "mac", role: "tabpanel", "aria-labelledby": "mactab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "math", role: "tabpanel", "aria-labelledby": "mathtab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: {
+          id: "office",
+          role: "tabpanel",
+          "aria-labelledby": "officetab"
+        }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "multi", role: "tabpanel", "aria-labelledby": "multitab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "sign", role: "tabpanel", "aria-labelledby": "signtab" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: {
+          id: "support",
+          role: "tabpanel",
+          "aria-labelledby": "supportab"
+        }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass: "tab-pane",
+        attrs: { id: "soft", role: "tabpanel", "aria-labelledby": "softab" }
+      })
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "ul",
+      {
+        staticClass: "nav nav-tabs",
+        attrs: { id: "practicestab", role: "tablist" }
+      },
+      [
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link active",
+              attrs: {
+                id: "webtab",
+                "data-toggle": "tab",
+                href: "#web",
+                role: "tab",
+                "aria-controls": "web",
+                "aria-selected": "true"
+              }
+            },
+            [_vm._v("Web")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "adobetab",
+                "data-toggle": "tab",
+                href: "#adobe",
+                role: "tab",
+                "aria-controls": "adobe",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Adobe PDF")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "androidtab",
+                "data-toggle": "tab",
+                href: "#android",
+                role: "tab",
+                "aria-controls": "android",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Android OS")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "delphitab",
+                "data-toggle": "tab",
+                href: "#delphi",
+                role: "tab",
+                "aria-controls": "delphi",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Delphi")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "embeddedtab",
+                "data-toggle": "tab",
+                href: "#embedded",
+                role: "tab",
+                "aria-controls": "embedded",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Embedded Software")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "hardtab",
+                "data-toggle": "tab",
+                href: "#hard",
+                role: "tab",
+                "aria-controls": "hard",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Hardware, Telecommunications, and ACS")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "iostab",
+                "data-toggle": "tab",
+                href: "#ios",
+                role: "tab",
+                "aria-controls": "ios",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("iOS")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "javatab",
+                "data-toggle": "tab",
+                href: "#java",
+                role: "tab",
+                "aria-controls": "java",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Java Software")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "kioskstab",
+                "data-toggle": "tab",
+                href: "#kiosks",
+                role: "tab",
+                "aria-controls": "kiosks",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Kiosks")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "mactab",
+                "data-toggle": "tab",
+                href: "#mac",
+                role: "tab",
+                "aria-controls": "mac",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Macintosh Software")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "mathtab",
+                "data-toggle": "tab",
+                href: "#math",
+                role: "tab",
+                "aria-controls": "math",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Math and Science")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "officetab",
+                "data-toggle": "tab",
+                href: "#office",
+                role: "tab",
+                "aria-controls": "office",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Microsoft Office")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "multitab",
+                "data-toggle": "tab",
+                href: "#multi",
+                role: "tab",
+                "aria-controls": "multi",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Multimedia and Video Programming")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "signtab",
+                "data-toggle": "tab",
+                href: "#sign",
+                role: "tab",
+                "aria-controls": "sign",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Signage")]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "supportab",
+                "data-toggle": "tab",
+                href: "#support",
+                role: "tab",
+                "aria-controls": "support",
+                "aria-selected": "false"
+              }
+            },
+            [
+              _vm._v(
+                "Support Information, Documentation, and Employee Training"
+              )
+            ]
+          )
+        ]),
+        _vm._v(" "),
+        _c("li", { staticClass: "nav-item" }, [
+          _c(
+            "a",
+            {
+              staticClass: "nav-link",
+              attrs: {
+                id: "softab",
+                "data-toggle": "tab",
+                href: "#soft",
+                role: "tab",
+                "aria-controls": "soft",
+                "aria-selected": "false"
+              }
+            },
+            [_vm._v("Windows Native Software")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingOne" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseOne",
+                "aria-expanded": "true",
+                "aria-controls": "collapseOne"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tAnimation\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingTwo" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseTwo",
+                "aria-expanded": "false",
+                "aria-controls": "collapseTwo"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\tARIA and Dynamic Content\n\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingThree" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseThree",
+                "aria-expanded": "false",
+                "aria-controls": "collapseThree"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tAuthoring Tools\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingFour" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseFour",
+                "aria-expanded": "false",
+                "aria-controls": "collapseFour"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tColor and Contrast\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingFive" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseFive",
+                "aria-expanded": "false",
+                "aria-controls": "collapseFive"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tCSS\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingSix" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseSix",
+                "aria-expanded": "true",
+                "aria-controls": "collapseSix"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tCalendar Controls\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingSeven" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseSeven",
+                "aria-expanded": "false",
+                "aria-controls": "collapseSeven"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\tDialogs\n\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingEight" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseEight",
+                "aria-expanded": "false",
+                "aria-controls": "collapseEight"
+              }
+            },
+            [
+              _vm._v(
+                "\n\t\t\t\t\t\t\t\tMulti-Column List View Controls\n\t\t\t\t\t\t\t\t"
+              )
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingNine" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseNine",
+                "aria-expanded": "false",
+                "aria-controls": "collapseNine"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tPage Tabs\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "headingTen" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapseTen",
+                "aria-expanded": "false",
+                "aria-controls": "collapseTen"
+              }
+            },
+            [
+              _vm._v(
+                "\n\t\t\t\t\t\t\t\tStandalone, Attached, and Context Menus\n\t\t\t\t\t\t\t\t"
+              )
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading11" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse11",
+                "aria-expanded": "true",
+                "aria-controls": "collapse11"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tTrees and Outlines\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading12" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse12",
+                "aria-expanded": "false",
+                "aria-controls": "collapse12"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\tData Tables\n\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading13" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse13",
+                "aria-expanded": "false",
+                "aria-controls": "collapse13"
+              }
+            },
+            [
+              _vm._v(
+                "\n\t\t\t\t\t\t\t\tEmbedded Media and Object Elements\n\t\t\t\t\t\t\t\t"
+              )
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading14" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse14",
+                "aria-expanded": "false",
+                "aria-controls": "collapse14"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tFocus Control\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading15" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse15",
+                "aria-expanded": "false",
+                "aria-controls": "collapse15"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tForms\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading16" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse16",
+                "aria-expanded": "true",
+                "aria-controls": "collapse16"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tFrames\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading17" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse17",
+                "aria-expanded": "false",
+                "aria-controls": "collapse17"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\tImage Maps\n\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading18" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse18",
+                "aria-expanded": "false",
+                "aria-controls": "collapse18"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tImages\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading19" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse19",
+                "aria-expanded": "false",
+                "aria-controls": "collapse19"
+              }
+            },
+            [
+              _vm._v(
+                "\n\t\t\t\t\t\t\t\tKeyboard Accessibility\n\t\t\t\t\t\t\t\t"
+              )
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading20" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse20",
+                "aria-expanded": "false",
+                "aria-controls": "collapse20"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tLanguage and Content\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading21" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse21",
+                "aria-expanded": "false",
+                "aria-controls": "collapse21"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tLayout Tables\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading22" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse22",
+                "aria-expanded": "false",
+                "aria-controls": "collapse22"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tLinks\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading23" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse23",
+                "aria-expanded": "false",
+                "aria-controls": "collapse23"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tLists\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading24" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse24",
+                "aria-expanded": "true",
+                "aria-controls": "collapse24"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tMobile\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading25" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse25",
+                "aria-expanded": "false",
+                "aria-controls": "collapse25"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\tMultimedia\n\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading26" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse26",
+                "aria-expanded": "false",
+                "aria-controls": "collapse26"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tNavigation\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading27" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse27",
+                "aria-expanded": "false",
+                "aria-controls": "collapse27"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tPage Structure\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "card-header", attrs: { id: "heading28" } },
+      [
+        _c("h5", { staticClass: "mb-0" }, [
+          _c(
+            "button",
+            {
+              staticClass: "btn btn-link collapsed",
+              attrs: {
+                "data-toggle": "collapse",
+                "data-target": "#collapse28",
+                "aria-expanded": "false",
+                "aria-controls": "collapse28"
+              }
+            },
+            [_vm._v("\n\t\t\t\t\t\t\t\tTypography\n\t\t\t\t\t\t\t\t")]
+          )
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-29874acd", module.exports)
+  }
+}
+
+/***/ }),
+/* 139 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
