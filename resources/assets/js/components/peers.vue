@@ -19,5 +19,11 @@
 					<a href="https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts">Keyboard Shortcuts for VoiceOver OSX</a>
 				</li>
 			</ul>
+		<h2>Tools</h2>
+			<ul>
+				<li>
+					<a href="https://jona.ca/blog/unclosed-tag-finder">Unclosed Tag Finder</a>
+				</li>
+			</ul>
 	</div>
 </template>
