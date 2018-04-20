@@ -71,7 +71,7 @@
 				<p><code>git status</code></p>
 				<p><code>git add . </code></p>
 				<p><code>git commit -m "message"</code></p> 
-				<p><code>git push origin master</code></p>
+				<p><code>git push origin -u master</code></p>
 		<h2>Instructions to create a fresh Laravel Instance on Windows 10</h2>
 			<h3>Install XAMPP</h3>
 				<p><a href="https://www.apachefriends.org/index.html">XAMPP Download</a></p>

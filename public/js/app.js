@@ -51242,7 +51242,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("p", [_c("code", [_vm._v('git commit -m "message"')])]),
       _vm._v(" "),
-      _c("p", [_c("code", [_vm._v("git push origin master")])]),
+      _c("p", [_c("code", [_vm._v("git push origin -u master")])]),
       _vm._v(" "),
       _c("h2", [
         _vm._v("Instructions to create a fresh Laravel Instance on Windows 10")
