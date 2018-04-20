@@ -102,6 +102,32 @@
 				<p><a href="https://nodejs.org/en">NodeJS Install</a></p>
 				<p>Change directory into the current project and install dependencies:</p>
 				<p><code>npm install</code></p>
+		<h2>Instructions for setting up Sublime Text 3</h2>
+			<h3>Package Control</h3>
+				<p>Install Package Control first to easily install all other packages</p>
+			<h3>Necessary Packages and Related Settings</h3>
+				<ul>
+					<li>Alignment</li>
+					<li>Bootstrap 4 Autocomplete</li>
+					<li>BracketHighlighter</li>
+					<li>Can I Use</li>
+					<li>Color Highlighter</li>
+					<li>Emmet</li>
+					<li>Git</li>
+					<li>Materialize
+						<ul>
+							<li>UI Theme - Material Twilight</li>
+							<li>UI Color Scheme - Material Stereokai</li>
+						</ul>
+					</li>
+					<li>PyV8</li>
+					<li>SideBarEnhancements</li>
+					<li>SublimeLinter</li>
+					<li>Terminal</li>
+					<li>Trimmer</li>
+					<li>View in Browser</li>
+					<li>VueJS Complete Package</li>
+				</ul>
 	</div>
 	</div>
 </template>

@@ -51339,7 +51339,58 @@ var staticRenderFns = [
         )
       ]),
       _vm._v(" "),
-      _c("p", [_c("code", [_vm._v("npm install")])])
+      _c("p", [_c("code", [_vm._v("npm install")])]),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Instructions for setting up Sublime Text 3")]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Package Control")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Install Package Control first to easily install all other packages"
+        )
+      ]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Necessary Packages and Related Settings")]),
+      _vm._v(" "),
+      _c("ul", [
+        _c("li", [_vm._v("Alignment")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Bootstrap 4 Autocomplete")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("BracketHighlighter")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Can I Use")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Color Highlighter")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Emmet")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Git")]),
+        _vm._v(" "),
+        _c("li", [
+          _vm._v("Materialize\n\t\t\t\t\t"),
+          _c("ul", [
+            _c("li", [_vm._v("UI Theme - Material Twilight")]),
+            _vm._v(" "),
+            _c("li", [_vm._v("UI Color Scheme - Material Stereokai")])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("li", [_vm._v("PyV8")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("SideBarEnhancements")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("SublimeLinter")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Terminal")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("Trimmer")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("View in Browser")]),
+        _vm._v(" "),
+        _c("li", [_vm._v("VueJS Complete Package")])
+      ])
     ])
   }
 ]
