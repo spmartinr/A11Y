@@ -140,9 +140,3 @@
 		</div>
 	</div>
 </template>
-
-
-
-
-<span id='someid'>testing</span>
-<a href="#" title='test' aria-label='test1' aria-labelledby='someid'>Test</a>
