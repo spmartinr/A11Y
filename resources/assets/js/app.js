@@ -60,6 +60,8 @@ let responsecodes = require('./components/responsecodes.vue');
 let loadmore = require('./components/loadmore.vue');
 let navigation = require('./components/navigation.vue');
 let session = require('./components/session.vue');
+let accname = require('./components/accname');
+let slider = require('./components/slider');
 
 // Enabled Routes
 const routes = [
@@ -105,6 +107,8 @@ const routes = [
     { path: '/loadmore', component: loadmore },
     { path: '/navigation', component: navigation },
     { path: '/session', component: session },
+    { path: '/accname', component: accname },
+    { path: '/slider', component: slider },
 ]
 
 // Router

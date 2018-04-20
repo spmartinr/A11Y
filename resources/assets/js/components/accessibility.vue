@@ -33,6 +33,9 @@
 		  </div>
 		  <div class="tab-pane" id="prototypes" role="tabpanel" aria-labelledby="proto">
 		  	<ul>
+		  		<li>
+					<router-link to='/accname'>Accessible Name Calculation</router-link>
+				</li>
 				<li>
 					<router-link to='/accordion'>Accordions</router-link>
 				</li>
@@ -94,6 +97,9 @@
 					<router-link to='/spinner'>Spinners</router-link>
 				</li>
 				<li>
+					<router-link to='/slider'>Sliders</router-link>
+				</li>
+				<li>
 					<router-link to='/tabs'>Tabs</router-link>
 				</li>
 				<li>
@@ -128,3 +134,9 @@
 		</div>
 	</div>
 </template>
+
+
+
+
+<span id='someid'>testing</span>
+<a href="#" title='test' aria-label='test1' aria-labelledby='someid'>Test</a>

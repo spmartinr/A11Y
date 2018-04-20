@@ -1,6 +1,6 @@
 <template>
 	<div class='container'>
-		<h1 tabindex='-1' v-focus>Accessible Accordion</h1>
+		<h1 tabindex='-1' v-focus>Accessible Name Calculation</h1>
 		<table class='table table-bordered table-hover'>
 			<thead class='thead-dark'>
 				<tr>
@@ -17,6 +17,5 @@
 				</tr>
 			</tbody>
 		</table>
-
 	</div>
 </template>

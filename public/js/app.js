@@ -24942,7 +24942,7 @@ module.exports = Cancel;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(14);
-module.exports = __webpack_require__(132);
+module.exports = __webpack_require__(136);
 
 
 /***/ }),
@@ -25018,9 +25018,11 @@ var responsecodes = __webpack_require__(124);
 var loadmore = __webpack_require__(126);
 var navigation = __webpack_require__(128);
 var session = __webpack_require__(130);
+var accname = __webpack_require__(132);
+var slider = __webpack_require__(134);
 
 // Enabled Routes
-var routes = [{ path: '/accessibility', component: accessibility }, { path: '/development', component: development }, { path: '/management', component: management }, { path: '/peers', component: peers }, { path: '/realestate', component: realestate }, { path: '/automotive', component: automotive }, { path: '/hiking', component: hiking }, { path: '/contact', component: contact }, { path: '/section', component: section }, { path: '/CVAA', component: CVAA }, { path: '/WCAG', component: WCAG }, { path: '/office', component: office }, { path: '/accordion', component: accordion }, { path: '/modal', component: modal }, { path: '/spinner', component: spinner }, { path: '/alerts', component: alerts }, { path: '/bgimages', component: bgimages }, { path: '/badges', component: badges }, { path: '/buttons', component: buttons }, { path: '/cards', component: cards }, { path: '/contextmenu', component: contextmenu }, { path: '/datatable', component: datatable }, { path: '/datep', component: datep }, { path: '/hints', component: hints }, { path: '/expanel', component: expanel }, { path: '/pageheader', component: pageheader }, { path: '/pagination', component: pagination }, { path: '/playercontrols', component: playercontrols }, { path: '/selectioncontrols', component: selectioncontrols }, { path: '/links', component: links }, { path: '/listiles', component: listiles }, { path: '/segcontrols', component: segcontrols }, { path: '/tabs', component: tabs }, { path: '/formz', component: formz }, { path: '/textlist', component: textlist }, { path: '/toast', component: toast }, { path: '/tooltip', component: tooltip }, { path: '/browsercontrol', component: browsercontrol }, { path: '/responsecodes', component: responsecodes }, { path: '/loadmore', component: loadmore }, { path: '/navigation', component: navigation }, { path: '/session', component: session }];
+var routes = [{ path: '/accessibility', component: accessibility }, { path: '/development', component: development }, { path: '/management', component: management }, { path: '/peers', component: peers }, { path: '/realestate', component: realestate }, { path: '/automotive', component: automotive }, { path: '/hiking', component: hiking }, { path: '/contact', component: contact }, { path: '/section', component: section }, { path: '/CVAA', component: CVAA }, { path: '/WCAG', component: WCAG }, { path: '/office', component: office }, { path: '/accordion', component: accordion }, { path: '/modal', component: modal }, { path: '/spinner', component: spinner }, { path: '/alerts', component: alerts }, { path: '/bgimages', component: bgimages }, { path: '/badges', component: badges }, { path: '/buttons', component: buttons }, { path: '/cards', component: cards }, { path: '/contextmenu', component: contextmenu }, { path: '/datatable', component: datatable }, { path: '/datep', component: datep }, { path: '/hints', component: hints }, { path: '/expanel', component: expanel }, { path: '/pageheader', component: pageheader }, { path: '/pagination', component: pagination }, { path: '/playercontrols', component: playercontrols }, { path: '/selectioncontrols', component: selectioncontrols }, { path: '/links', component: links }, { path: '/listiles', component: listiles }, { path: '/segcontrols', component: segcontrols }, { path: '/tabs', component: tabs }, { path: '/formz', component: formz }, { path: '/textlist', component: textlist }, { path: '/toast', component: toast }, { path: '/tooltip', component: tooltip }, { path: '/browsercontrol', component: browsercontrol }, { path: '/responsecodes', component: responsecodes }, { path: '/loadmore', component: loadmore }, { path: '/navigation', component: navigation }, { path: '/session', component: session }, { path: '/accname', component: accname }, { path: '/slider', component: slider }];
 
 // Router
 var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
@@ -50442,6 +50444,7 @@ var Component = normalizeComponent(
 )
 Component.options.__file = "resources/assets/js/components/accessibility.vue"
 
+
 /* hot reload */
 if (false) {(function () {
   var hotAPI = require("vue-hot-reload-api")
@@ -50554,6 +50557,16 @@ var render = function() {
         },
         [
           _c("ul", [
+            _c(
+              "li",
+              [
+                _c("router-link", { attrs: { to: "/accname" } }, [
+                  _vm._v("Accessible Name Calculation")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
             _c(
               "li",
               [
@@ -50745,6 +50758,16 @@ var render = function() {
               [
                 _c("router-link", { attrs: { to: "/spinner" } }, [
                   _vm._v("Spinners")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "li",
+              [
+                _c("router-link", { attrs: { to: "/slider" } }, [
+                  _vm._v("Sliders")
                 ])
               ],
               1
@@ -51028,7 +51051,9 @@ var render = function() {
       [_vm._v("Web Development")]
     ),
     _vm._v(" "),
-    _vm._m(0)
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1)
   ])
 }
 var staticRenderFns = [
@@ -51044,6 +51069,8 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("li", [_vm._v("AngularJS")]),
         _vm._v(" "),
+        _c("li", [_vm._v("Ember")]),
+        _vm._v(" "),
         _c("li", [_vm._v("ReactJS")])
       ]),
       _vm._v(" "),
@@ -51056,6 +51083,263 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("li", [_vm._v("JavaScript")])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("h2", [
+        _vm._v("Instructions to create a fresh Laravel Instance on Mac OS")
+      ]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install Brew")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Open terminal and paste the following code:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("/usr/bin/ruby")])]),
+      _vm._v(" "),
+      _c("p", [
+        _c("code", [
+          _vm._v(
+            '-e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install Composer")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "To install Compser locally, run the installer in the project directory."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("For example:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("cd /Users/shane/Documents/A11Y")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Then, install composer with brew:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("brew install composer")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("After install, test it with:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("composer --version")])]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("Assuming a version number shows up, everything is good.")
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("Specify "),
+        _c("code", [_vm._v("bash")]),
+        _vm._v(" path:")
+      ]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("nano ~/.bash_profile")])]),
+      _vm._v(" "),
+      _c("p", [
+        _c("code", [_vm._v("export PATH=~/.composer/vendor/bin:$PATH")])
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Save bash profile")]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install Laravel")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Laravel utilizes Composer to manage its dependencies.  So, before using Laravel, make sure Composer is installed locally. Change directory into the directory Composer was previously installed."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("For example: "),
+        _c("code", [_vm._v("cd /Users/shane/Documents/A11Y")])
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Install Laravel with laravel installer:")]),
+      _vm._v(" "),
+      _c("p", [
+        _c("code", [_vm._v('composer global require "laravel/installer"')])
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("When finished, the "),
+        _c("code", [_vm._v("laravel new")]),
+        _vm._v(
+          " command will create a fresh Laravel installation in the specified directory."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("laravel new A11Y")])]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install Node")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Change directory into project directory:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("cd /Users/shane/Documents/A11Y")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Install Node via Homebrew")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("brew install node")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Check Node install success and version:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("node -v")])]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install Dependencies")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("Install all prepopulated dependencies with node, for example:")
+      ]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("cd /Users/shane/Documents/A11Y")])]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("npm install")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Install specific dependencies such as:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("npm install vue-router --save")])]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("npm install vue-focus --save")])]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Start Laravel Dev Server")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Change directory into the project directory and start the dev server."
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("cd /Users/shane/Documents/A11Y")])]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("php artisan serve")])]),
+      _vm._v(" "),
+      _c("h3"),
+      _vm._v(">Start Node Compiler"),
+      _vm._v(">\n\t\t\t"),
+      _c("p", [
+        _vm._v("Change directory into the project directory and start node.")
+      ]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("cd /Users/shane/Documents/A11Y")])]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("npm run watch")])]),
+      _vm._v(" "),
+      _c("h2", [_vm._v("Instructions to sync project to GitHub and upload")]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Sync local to github repo:")]),
+      _vm._v(" "),
+      _c("p", [_c("code")]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Push changes to github master")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("git status")])]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("git add . ")])]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v('git commit -m "message"')])]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("git push origin master")])]),
+      _vm._v(" "),
+      _c("h2", [
+        _vm._v("Instructions to create a fresh Laravel Instance on Windows 10")
+      ]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install XAMPP")]),
+      _vm._v(" "),
+      _c("p", [
+        _c(
+          "a",
+          { attrs: { href: "https://www.apachefriends.org/index.html" } },
+          [_vm._v("XAMPP Download")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install Composer")]),
+      _vm._v(" "),
+      _c("p", [
+        _c("a", { attrs: { href: "https://getcomposer.org" } }, [
+          _vm._v("Composer Download")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Verify Installation")]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Open Command Line and check PHP version:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("php -v")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Check Composer")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("composer")])]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install Laravel")]),
+      _vm._v(" "),
+      _c("p", [
+        _c(
+          "a",
+          { attrs: { href: "https://laravel.com/docs/5.6/installation" } },
+          [_vm._v("Laravel Installation")]
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("In the open cmd line paste:")]),
+      _vm._v(" "),
+      _c("p", [
+        _c("code", [_vm._v('composer global require "laravel/installer"')])
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Verify installation with the following command:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("laravel")])]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Change directory into the desired folder and create a new instance of Laravel with:"
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _c("code", [_vm._v("laravel new name")]),
+        _vm._v(' Where "name" is the name of the project')
+      ]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Open XAMPP and start Apache and MySQL")]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Start the Dev Server")]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v("Open command line, cd into the project directory then:")
+      ]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("php artisan serve")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("May need to generate a key:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("php artisan key:generate")])]),
+      _vm._v(" "),
+      _c("p", [_vm._v("If still not working, make the port public via:")]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("php -S localhost:8000 -t public")])]),
+      _vm._v(" "),
+      _c("h3", [_vm._v("Install NodeJS")]),
+      _vm._v(" "),
+      _c("p", [
+        _c("a", { attrs: { href: "https://nodejs.org/en" } }, [
+          _vm._v("NodeJS Install")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "Change directory into the current project and install dependencies:"
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [_c("code", [_vm._v("npm install")])])
     ])
   }
 ]
@@ -51227,7 +51511,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("ul", [
       _c("li", [
-        _c("a", { attrs: { href: "www.scottohara.me" } }, [
+        _c("a", { attrs: { href: "https://www.scottohara.me" } }, [
           _vm._v("Scott O'Hara")
         ])
       ])
@@ -51239,15 +51523,19 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("ul", [
       _c("li", [
-        _c("a", { attrs: { href: "webaim.org/resources/shortcuts/jaws" } }, [
-          _vm._v("Keyboard Shortcuts for JAWS")
-        ])
+        _c(
+          "a",
+          { attrs: { href: "https://webaim.org/resources/shortcuts/jaws" } },
+          [_vm._v("Keyboard Shortcuts for JAWS")]
+        )
       ]),
       _vm._v(" "),
       _c("li", [
-        _c("a", { attrs: { href: "webaim.org/resources/shortcuts/nvda" } }, [
-          _vm._v("Keyboard Shortcuts for NVDA")
-        ])
+        _c(
+          "a",
+          { attrs: { href: "https://webaim.org/resources/shortcuts/nvda" } },
+          [_vm._v("Keyboard Shortcuts for NVDA")]
+        )
       ]),
       _vm._v(" "),
       _c("li", [
@@ -51256,7 +51544,7 @@ var staticRenderFns = [
           {
             attrs: {
               href:
-                "dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts"
+                "https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts"
             }
           },
           [_vm._v("Keyboard Shortcuts for VoiceOver OSX")]
@@ -52145,7 +52433,9 @@ var render = function() {
       [_vm._v("Accessible Modal")]
     ),
     _vm._v(" "),
-    _vm._m(0)
+    _vm._m(0),
+    _vm._v(" "),
+    _vm._m(1)
   ])
 }
 var staticRenderFns = [
@@ -52173,6 +52463,102 @@ var staticRenderFns = [
           _c("td", [_vm._v("Initial Build")])
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-primary",
+          attrs: {
+            type: "button",
+            "data-toggle": "modal",
+            "data-target": "#mymodal"
+          }
+        },
+        [_vm._v("\n\t\t\tLaunch Accessible Modal\n\t\t")]
+      ),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "modal fade",
+          attrs: {
+            id: "mymodal",
+            tabindex: "-1",
+            role: "dialog",
+            "aria-labelledby": "mymodallabel",
+            "aria-hidden": "true"
+          }
+        },
+        [
+          _c(
+            "div",
+            { staticClass: "modal-dialog", attrs: { role: "document" } },
+            [
+              _c("div", { staticClass: "modal-content" }, [
+                _c("div", { staticClass: "modal-header" }, [
+                  _c(
+                    "h5",
+                    {
+                      staticClass: "modal-title",
+                      attrs: { id: "mymodallabel" }
+                    },
+                    [_vm._v("Accessibility in a Modal")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "close",
+                      attrs: {
+                        type: "button",
+                        "data-dismiss": "modal",
+                        "aria-label": "close"
+                      }
+                    },
+                    [
+                      _c("span", { attrs: { "aria-hidden": "true" } }, [
+                        _vm._v("×")
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-body" }, [
+                  _vm._v(
+                    "\n\t\t\t\t\tLorem ipsum text belonging in a modal body\n\t\t\t\t"
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "modal-footer" }, [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-secondary",
+                      attrs: { type: "button", "data-dismiss": "modal" }
+                    },
+                    [_vm._v("Close")]
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "button",
+                    {
+                      staticClass: "btn btn-primary",
+                      attrs: { type: "button" }
+                    },
+                    [_vm._v("Save Changes")]
+                  )
+                ])
+              ])
+            ]
+          )
+        ]
+      )
     ])
   }
 ]
@@ -55127,6 +55513,216 @@ if (false) {
 
 /***/ }),
 /* 132 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(133)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/accname.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-f5d1ce76", Component.options)
+  } else {
+    hotAPI.reload("data-v-f5d1ce76", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 133 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "h1",
+      {
+        directives: [{ name: "focus", rawName: "v-focus" }],
+        attrs: { tabindex: "-1" }
+      },
+      [_vm._v("Accessible Name Calculation")]
+    ),
+    _vm._v(" "),
+    _vm._m(0)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("table", { staticClass: "table table-bordered table-hover" }, [
+      _c("thead", { staticClass: "thead-dark" }, [
+        _c("tr", [
+          _c("th", { attrs: { scope: "col" } }, [_vm._v("Version")]),
+          _vm._v(" "),
+          _c("th", { attrs: { scope: "col" } }, [_vm._v("Release Date")]),
+          _vm._v(" "),
+          _c("th", { attrs: { scope: "col" } }, [_vm._v("Changelog")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("tbody", [
+        _c("tr", [
+          _c("td", [_vm._v("1.0")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("4/18/18")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("Initial Build")])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-f5d1ce76", module.exports)
+  }
+}
+
+/***/ }),
+/* 134 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(135)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/slider.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-7250d938", Component.options)
+  } else {
+    hotAPI.reload("data-v-7250d938", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 135 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "h1",
+      {
+        directives: [{ name: "focus", rawName: "v-focus" }],
+        attrs: { tabindex: "-1" }
+      },
+      [_vm._v("Accessible Sliders")]
+    ),
+    _vm._v(" "),
+    _vm._m(0)
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("table", { staticClass: "table table-bordered table-hover" }, [
+      _c("thead", { staticClass: "thead-dark" }, [
+        _c("tr", [
+          _c("th", { attrs: { scope: "col" } }, [_vm._v("Version")]),
+          _vm._v(" "),
+          _c("th", { attrs: { scope: "col" } }, [_vm._v("Release Date")]),
+          _vm._v(" "),
+          _c("th", { attrs: { scope: "col" } }, [_vm._v("Changelog")])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("tbody", [
+        _c("tr", [
+          _c("td", [_vm._v("1.0")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("4/18/18")]),
+          _vm._v(" "),
+          _c("td", [_vm._v("Initial Build")])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-7250d938", module.exports)
+  }
+}
+
+/***/ }),
+/* 136 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
