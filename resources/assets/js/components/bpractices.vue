@@ -425,6 +425,7 @@
 									</li>
 									<li>
 										<router-link to=''>Ensure that menus are rendered inline with the controls that activate them</router-link>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -787,6 +788,7 @@
 									</li>
 									<li>
 										<router-link to=''>Ensure that menus are rendered inline with the controls that activate them</router-link>
+									</li>
 								</ul>
 							</div>
 						</div>
