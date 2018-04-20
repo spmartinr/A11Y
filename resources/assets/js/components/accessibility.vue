@@ -17,6 +17,9 @@
 			<li class='nav-item'>
 				<a class='nav-link' id='proto' data-toggle='tab' href="#prototypes" role='tab' aria-controls='prototypes' aria-selected='false'>Prototypes</a>
 			</li>
+			<li class='nav-item'>
+				<a class='nav-link' id='bestp' data-toggle='tab' href="#practices" role='tab' aria-controls='practices' aria-selected='false'>Best Practices</a>
+			</li>
 		</ul>
 		<div class="tab-content">
 		  <div class="tab-pane active" id="WCAG" role="tabpanel" aria-labelledby="WCAGtab">
@@ -130,6 +133,9 @@
 					<router-link to='session'>Session Timeout</router-link>
 				</li>
 			</ul>
+		  </div>
+		  <div class="tab-pane" id="practices" role="tabpanel" aria-labelledby="bestp">
+		  	<router-link to='/bpractices'>Best Practices</router-link>
 		  </div>
 		</div>
 	</div>

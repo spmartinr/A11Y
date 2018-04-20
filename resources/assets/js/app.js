@@ -60,8 +60,9 @@ let responsecodes = require('./components/responsecodes.vue');
 let loadmore = require('./components/loadmore.vue');
 let navigation = require('./components/navigation.vue');
 let session = require('./components/session.vue');
-let accname = require('./components/accname');
-let slider = require('./components/slider');
+let accname = require('./components/accname.vue');
+let slider = require('./components/slider.vue');
+let bpractices = require('./components/bpractices.vue');
 
 // Enabled Routes
 const routes = [
@@ -109,6 +110,7 @@ const routes = [
     { path: '/session', component: session },
     { path: '/accname', component: accname },
     { path: '/slider', component: slider },
+    { path: '/bpractices', component: bpractices },
 ]
 
 // Router
