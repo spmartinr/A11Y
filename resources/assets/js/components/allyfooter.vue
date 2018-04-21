@@ -1,8 +1,8 @@
 <template>
 	<div class='container' role='contentinfo'>
 		This is a test of allyfooter
-	
-		<modal></modal>
+		<button @click='success1'>Test</button>
+		<modal :success='addSuccess'></modal>
 	</div>
 </template>
 
@@ -16,15 +16,17 @@
 
 			components:{modal}, // enables the component
 			
-			// data() { //should return something
-			// 	return{
-
-			// 	}
-			// },
+			data() { //should return something
+				return{
+					addSuccess : ''
+				}
+			},
 			
-			// methods:{ //specifies functions being used in the component
-
-			// }
+			methods:{ //specifies functions being used in the component
+				success1(){
+					this.addSuccess = 'btn-success';
+				}
+			}
 
 	};
 </script>

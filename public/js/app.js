@@ -50348,19 +50348,24 @@ var modal = __webpack_require__(75); // identifies the component
 
 /* harmony default export */ __webpack_exports__["default"] = ({
 
-		props: [''], //accepts the specified prop from the parent view
+	props: [''], //accepts the specified prop from the parent view
 
-		components: { modal: modal } // enables the component
+	components: { modal: modal }, // enables the component
 
-		// data() { //should return something
-		// 	return{
+	data: function data() {
+		//should return something
+		return {
+			addSuccess: ''
+		};
+	},
 
-		// 	}
-		// },
 
-		// methods:{ //specifies functions being used in the component
-
-		// }
+	methods: {
+		//specifies functions being used in the component
+		success1: function success1() {
+			this.addSuccess = 'btn-success';
+		}
+	}
 
 });
 
@@ -50375,7 +50380,12 @@ var render = function() {
   return _c(
     "div",
     { staticClass: "container", attrs: { role: "contentinfo" } },
-    [_vm._v("\n\tThis is a test of allyfooter\n\n\t"), _c("modal")],
+    [
+      _vm._v("\n\tThis is a test of allyfooter\n\t"),
+      _c("button", { on: { click: _vm.success1 } }, [_vm._v("Test")]),
+      _vm._v(" "),
+      _c("modal", { attrs: { success: _vm.addSuccess } })
+    ],
     1
   )
 }
@@ -52519,7 +52529,7 @@ if (false) {
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
-var __vue_script__ = null
+var __vue_script__ = __webpack_require__(150)
 /* template */
 var __vue_template__ = __webpack_require__(76)
 /* template functional */
@@ -52579,7 +52589,23 @@ var render = function() {
     _vm._v(" "),
     _vm._m(0),
     _vm._v(" "),
-    _vm._m(1)
+    _c("div", { staticClass: "container" }, [
+      _c(
+        "button",
+        {
+          staticClass: "btn",
+          class: _vm.success,
+          attrs: {
+            type: "button",
+            "data-toggle": "modal",
+            "data-target": "#mymodal"
+          }
+        },
+        [_vm._v("\n\t\t\tLaunch Accessible Modal\n\t\t")]
+      ),
+      _vm._v(" "),
+      _vm._m(1)
+    ])
   ])
 }
 var staticRenderFns = [
@@ -52613,97 +52639,76 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c(
-        "button",
-        {
-          staticClass: "btn btn-primary",
-          attrs: {
-            type: "button",
-            "data-toggle": "modal",
-            "data-target": "#mymodal"
-          }
-        },
-        [_vm._v("\n\t\t\tLaunch Accessible Modal\n\t\t")]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "modal fade",
-          attrs: {
-            id: "mymodal",
-            tabindex: "-1",
-            role: "dialog",
-            "aria-labelledby": "mymodallabel",
-            "aria-hidden": "true"
-          }
-        },
-        [
-          _c(
-            "div",
-            { staticClass: "modal-dialog", attrs: { role: "document" } },
-            [
-              _c("div", { staticClass: "modal-content" }, [
-                _c("div", { staticClass: "modal-header" }, [
-                  _c(
-                    "h5",
-                    {
-                      staticClass: "modal-title",
-                      attrs: { id: "mymodallabel" }
-                    },
-                    [_vm._v("Accessibility in a Modal")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "close",
-                      attrs: {
-                        type: "button",
-                        "data-dismiss": "modal",
-                        "aria-label": "close"
-                      }
-                    },
-                    [
-                      _c("span", { attrs: { "aria-hidden": "true" } }, [
-                        _vm._v("×")
-                      ])
-                    ]
-                  )
-                ]),
+    return _c(
+      "div",
+      {
+        staticClass: "modal fade",
+        attrs: {
+          id: "mymodal",
+          tabindex: "-1",
+          role: "dialog",
+          "aria-labelledby": "mymodallabel",
+          "aria-hidden": "true"
+        }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "modal-dialog", attrs: { role: "document" } },
+          [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "modal-header" }, [
+                _c(
+                  "h5",
+                  { staticClass: "modal-title", attrs: { id: "mymodallabel" } },
+                  [_vm._v("Accessibility in a Modal")]
+                ),
                 _vm._v(" "),
-                _c("div", { staticClass: "modal-body" }, [
-                  _vm._v(
-                    "\n\t\t\t\t\tLorem ipsum text belonging in a modal body\n\t\t\t\t"
-                  )
-                ]),
+                _c(
+                  "button",
+                  {
+                    staticClass: "close",
+                    attrs: {
+                      type: "button",
+                      "data-dismiss": "modal",
+                      "aria-label": "close"
+                    }
+                  },
+                  [
+                    _c("span", { attrs: { "aria-hidden": "true" } }, [
+                      _vm._v("×")
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _vm._v(
+                  "\n\t\t\t\t\tLorem ipsum text belonging in a modal body\n\t\t\t\t"
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-footer" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-secondary",
+                    attrs: { type: "button", "data-dismiss": "modal" }
+                  },
+                  [_vm._v("Close")]
+                ),
                 _vm._v(" "),
-                _c("div", { staticClass: "modal-footer" }, [
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-secondary",
-                      attrs: { type: "button", "data-dismiss": "modal" }
-                    },
-                    [_vm._v("Close")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-primary",
-                      attrs: { type: "button" }
-                    },
-                    [_vm._v("Save Changes")]
-                  )
-                ])
+                _c(
+                  "button",
+                  { staticClass: "btn btn-primary", attrs: { type: "button" } },
+                  [_vm._v("Save Changes")]
+                )
               ])
-            ]
-          )
-        ]
-      )
-    ])
+            ])
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -61176,6 +61181,75 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 140 */,
+/* 141 */,
+/* 142 */,
+/* 143 */,
+/* 144 */,
+/* 145 */,
+/* 146 */,
+/* 147 */,
+/* 148 */,
+/* 149 */,
+/* 150 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+
+	props: ['success']
+
+});
 
 /***/ })
 /******/ ]);

@@ -18,7 +18,7 @@
 			</tbody>
 		</table>
 		<div class="container">
-			<button type='button' class='btn btn-primary' data-toggle='modal' data-target='#mymodal'>
+			<button type='button' class='btn' data-toggle='modal' data-target='#mymodal' :class='success'>
 				Launch Accessible Modal
 			</button>
 		<div class='modal fade' id='mymodal' tabindex='-1' role='dialog' aria-labelledby='mymodallabel' aria-hidden='true'>
@@ -43,3 +43,11 @@
 		</div>
 	</div>
 </template>
+
+<script>
+	export default {
+
+		props:['success']
+
+	}
+</script>
